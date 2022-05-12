@@ -483,14 +483,23 @@ body * {
   font-size: 33px;
   line-height: 36px;
 }
+
 .m-member {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.slider {
+  display: flex;
+  visibility: hidden;
+}
+.slider .slick-initialized {
+  visibility: visible;
 }
 .m-ml-box {
-  margin: 10px 30px;
+  padding: 10px 30px;
   height: auto;
   max-width: 100%;
+  background-color: #CC3399;
 }
 .m-ml-i-box {
   height: auto;
@@ -499,7 +508,7 @@ body * {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 10px 0;
+  padding: 10px 0;
 }
 .m-ml-image {
   height: auto;
@@ -517,12 +526,15 @@ body * {
 .m-ml-rep {
   font-size: 16px;
 }
+
+
 .left-arrow-box {
   height: auto;
   width: 150px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #3ECFD4;
 }
 .left-arrow {
   height: 35px;
@@ -535,6 +547,7 @@ body * {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background-color: #3ECFD4;
 }
 .right-arrow {
   height: 35px;
@@ -554,6 +567,7 @@ body * {
   width: 13px;
   background-color: #31D1C0;
 }
+
 
 /* バナー03 */
 .m-banner03 {
